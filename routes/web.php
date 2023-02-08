@@ -15,4 +15,4 @@ use App\Http\Controllers\dashboard\DashboardController;
 |
 */
 
-Route::get('/home',[HomeController::class,'index']);
+Route::get('/',[HomeController::class,'index']);
